@@ -1,0 +1,14 @@
+{
+  "name": "api-rest-tarefas",
+  "version": "1.0.0",
+  "description": "API REST de tarefas com autenticação JWT, validação, paginação e testes — TypeScript nativo no Node 22, zero dependências.",
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "dev": "node --watch src/server.ts",
+    "start": "node src/server.ts",
+    "test": "NODE_ENV=test node --test tests/api.test.ts"
+  },
+  "author": "Paulo Silva",
+  "license": "MIT"
+}
